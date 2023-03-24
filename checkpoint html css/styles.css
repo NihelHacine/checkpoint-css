@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{
+background-color: black;
+align-content: center;
+margin: 0 auto;
+position: sticky;
+top:0;
+
+
+}
+nav ul{
+padding: 2%;   
+list-style: none;
+display: flex;
+
+}
+nav li {
+width: 25%;
+text-align: center;
+float: left;
+}
+
+nav a{
+text-decoration: none;
+color: goldenrod;
+}
+nav a:hover {
+    color: greenyellow;
+}
+#main{
+    width: 100%;
+    margin: auto;
+    display: flex ;
+    justify-content: center;
+    height:800px;
+    background-color: rgb(241, 218, 149);
+
+}
+.box1{
+display: flex;
+width: 800px;
+margin: 100px;
+
+}
+.box1 img{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 50px ;
+}
+.box1 ul{
+    padding: 40px;
+    padding-top: 70px;
+    list-style: none;
+}
+.box1 a {
+    text-decoration: none;
+    color:rgb(210, 30, 45);
+}
+.box1 a:hover{
+    font-size:36px ;
+    color:red;
+
+}
+.bloc{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    padding: 40px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(179, 153, 135);
+
+
+}
+.s1{
+    text-decoration: underline;
+}
+.bloc h3{
+    text-align: center;
+    color: goldenrod;
+}
+.contact{
+    display: flex;
+    font-size: large;
+    line-height: 50px;
+}
+.contacter {
+    margin: 50px;
+    padding: 50px;
+    width: 400px;
+    height: auto;
+
+}
+.contacter ul{
+    list-style: none;
+}
+.contacter a{
+    text-decoration: none;
+}
+.etude {
+    padding: 40px;
+    margin: 33px;
+    line-height:60px ;
+}
+.etude ul{
+    list-style: none;
+    font-size: 25px;
+}
+.etude img{
+    border-radius: 50%;
+}
+.button{
+    color: bisque;
+    background-color: rgb(29, 27, 27);
+    margin: 40px;
+    padding: 8px;
+    width: 100px;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: rgb(72, 94, 94);
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+#footer{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+
+}
